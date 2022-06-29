@@ -1,0 +1,64 @@
+.btn-primary, .btn-secondary {
+  padding: 1.3rem;
+  background: #2a70f6;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn-primary:hover, .btn-secondary:hover {
+  zoom: 110%;
+  background-color: black;
+}
+
+.btn-secondary {
+  background: #f08c34;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.showcase {
+  padding-bottom: 2rem;
+  background: #5a26bd;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.showcase .container {
+  width: 85%;
+  margin: 0 auto;
+}
+.showcase .container nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1em 0 2em 0;
+}
+.showcase .container nav li {
+  display: inline;
+}
+.showcase .container nav li a {
+  color: #fff;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+.showcase .showcase-content {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+}
+.showcase .showcase-content div {
+  flex: 1;
+}
+.showcase .showcase-content div h1 {
+  font-size: 2.9rem;
+}
+.showcase .showcase-content div p {
+  font-size: 0.9rem;
+  margin-bottom: 5vh;
+}
+.showcase .showcase-content img {
+  flex: 1;
+}/*# sourceMappingURL=style.css.map */

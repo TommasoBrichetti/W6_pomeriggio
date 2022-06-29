@@ -1,0 +1,15 @@
+.btn-primary, .btn-secondary{
+    padding: 1.3rem;
+    background: $bg_button1;
+    border-radius: 5px;  
+    text-decoration: none;
+    color: map-get($text,aColor);
+    transition: 0.5s;
+    &:hover{
+        zoom: 110%;
+        background-color: black;
+    }
+}
+.btn-secondary{
+        background: $bg_button2;
+}
