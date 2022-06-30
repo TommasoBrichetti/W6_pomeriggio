@@ -8,7 +8,6 @@
 }
 .btn-primary:hover, .btn-secondary:hover {
   zoom: 110%;
-  background-color: black;
 }
 
 .btn-secondary {

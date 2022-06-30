@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+#header #main-menu {
+  width: 100%;
+  background: #00008b;
+  padding: 0.2rem 0;
+  border-radius: 15px;
+}
+#header #main-menu li {
+  display: inline-block;
+}
+#header #main-menu li a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1vw;
+  font-style: italic;
+}
+
+#main {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  margin: 5vh auto;
+}
+@media screen and (max-width: 1024px) {
+  #main {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+}
+#main #content {
+  flex: 9;
+}
+#main #content a {
+  color: #ffa500;
+  text-decoration: none;
+  font-style: italic;
+}
+#main #content button {
+  background-color: #ffa500;
+  color: white;
+  padding: 0.7rem;
+  box-shadow: 2px 2px gray;
+  border: none;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+#main #sidebar {
+  flex: 2;
+}
+#main #sidebar ul {
+  width: 100%;
+}
+@media screen and (max-width: 1024px) {
+  #main #sidebar ul {
+    padding: 0;
+  }
+}
+#main #sidebar ul li {
+  list-style: none;
+  border-bottom: 1px dashed gray;
+  padding: 1rem;
+}
+
+#footer {
+  height: 12vh;
+  background: #398ae6;
+}
+
+/*# sourceMappingURL=style.css.map */
