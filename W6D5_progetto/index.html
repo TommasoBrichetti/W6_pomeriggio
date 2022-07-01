@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap and sass</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-lg">
+            <a class="navbar-brand" href="#">Barra di navigazione fissa</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Attiva/disattiva la navigazione">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <ion-icon name="logo-twitch"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <ion-icon name="logo-discord"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="section-header">
+        <div>
+            <h1>La nostra passione si erge sopra ogni cosa</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quod earum magni, blanditiis a dolor quidem
+                voluptas error dicta! Atque!</p>
+            <button type="button" class="btn btn-dark">iscriviti alla lista contatti</button>
+        </div>
+    </section>
+    <section id="section-cards">
+        <div class="cards">
+            <ion-icon name="briefcase"></ion-icon>
+            <h2>Lorem ipsum</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id minima nobis quaerat hic quidem sapiente
+                fuga obcaecati optio nesciunt quae.</p>
+        </div>
+        <div class="cards">
+            <ion-icon name="person-add"></ion-icon>
+            <h2>Lorem ipsum</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id minima nobis quaerat hic quidem sapiente
+                fuga obcaecati optio nesciunt quae.</p>
+        </div>
+        <div class="cards">
+            <ion-icon name="glasses"></ion-icon>
+            <h2>Lorem ipsum</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id minima nobis quaerat hic quidem sapiente
+                fuga obcaecati optio nesciunt quae.</p>
+        </div>
+    </section>
+    <div class=".svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f5f5f5" fill-opacity="1"
+                d="M0,96L80,117.3C160,139,320,181,480,176C640,171,800,117,960,101.3C1120,85,1280,107,1360,117.3L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+            </path>
+        </svg>
+    </div>
+    <section id="section-partnership">
+        <h2>Partnerships</h2>
+        <div class="logos">
+            <div><img src="img/Accenture_logo.svg.png" alt="Accenture_logo"></div>
+            <div><img src="img/fedex-logo.png" alt="fedex-logo"></div>
+            <div><img src="img/Netflix_2015_logo.svg.png" alt="Netflix_logo"></div>
+            <div><img src="img/TIM_Logo_2016.png" alt="TIM_Logo"></div>
+        </div>
+    </section>
+    <div class="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f5f5f5" fill-opacity="1"
+                d="M0,160L80,154.7C160,149,320,139,480,165.3C640,192,800,256,960,256C1120,256,1280,192,1360,160L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+            </path>
+        </svg>
+    </div>
+
+    <section id="testimonianze" class="bg-light">
+
+        <h2>Le opinioni dei nostri clienti</h2>
+
+        <!-- Example Code -->
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nesciunt. Amet eos totam, a
+                            nesciunt excepturi mollitia? Maxime, tenetur velit?</p>
+                        <img src="img/download.jpg" alt="">
+                        <h3>Ena Shiffer</h3>
+                    </article>
+                </div>
+                <div class="carousel-item">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nesciunt. Amet eos totam, a
+                            nesciunt excepturi mollitia? Maxime, tenetur velit?</p>
+                        <img src="img/photo-1499996860823-5214fcc65f8f.jpg" alt="">
+                        <h3>Eden Morra</h3>
+                    </article>
+                </div>
+                <div class="carousel-item">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, nesciunt. Amet eos totam, a
+                            nesciunt excepturi mollitia? Maxime, tenetur velit?</p>
+                        <img src="img/photo-1500648767791-00dcc994a43e.jpg" alt="">
+                        <h3>Edoardo Vandini</h3>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!-- End Example Code -->
+    </section>
+
+
+    <footer class="bg-dark">
+        <div class="flexfooter">
+            <div>
+                <h2>BootPro</h2>
+            </div>
+            <div>
+                <h3>Mission & Vision</h3>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+            </div>
+            <div>
+                <h3>Dove Siamo</h3>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+            </div>
+            <div>
+                <h3>Contatti</h3>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+                <p>lorem ipsum</p>
+            </div>
+        </div>
+        <p>&copy; Alessio per Epicode School</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        const myCarouselElement = document.querySelector('#carouselExampleSlidesOnly')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+            wrap: true
+        })
+        carousel.cycle()
+        console.log(carousel)
+    </script>
+</body>
+
+</html>

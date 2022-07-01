@@ -66,6 +66,7 @@ h2{
             width: 100%;
             @include desktop{
                 padding: 0;
+                
             }
             li{
                 list-style: none;
@@ -73,9 +74,14 @@ h2{
                 padding: 1rem;
             }
         }
+        @include desktop{
+            padding: 0;
+            
+        }
         
     }
 }
+
 #footer{
     height: 12vh;
     background: $secondary;
